@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="main.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="./lib/jsonQ.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.2.0/anime.min.js"></script>
+    <script src="main.js"></script>
+    <script src="welcome.js"></script>
+    <title>Quiz</title>
+  </head>
+  <body>
+
+    <div id="root">
+      <div id="quiz-canvas">
+        <div id="scoreboard">
+          
+        </div>
+        <div id="answer-box">
+          <h2 id="question"></h2>
+          <ul class="options">
+            <li id="opt1"></li>
+            <li id="opt2"></li>
+            <li id="opt3"></li>
+            <li id="opt4"></li>
+          </ul>
+        </div>
+        <div class="buttonNext">Next Ball</div>
+      </div>
+    </div>
+ 
+    <div class="welcome">
+      <button id="button" > PLAY GAME</button><br>
+      <div class="loader-wrapper">
+        <div class="loader"></div>
+      </div>
+    </div>
+  </body>
+</html>
